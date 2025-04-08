@@ -13,6 +13,12 @@ var letras = [
     { letra: 'L', palabra: 'Luna', imagen: './pictures/Luna.png' },
     { letra: 'M', palabra: 'Manzana', imagen: './pictures/Manzana.png' },
     { letra: 'N', palabra: 'Naranja', imagen: './pictures/Naranja.png' },
+    { letra: 'Ñ', palabra: 'Ñandú', imagen: 'Pictures/ñandu.png' },
+    { letra: 'O', palabra: 'Oso', imagen: 'Pictures/oso.png' },
+    { letra: 'P', palabra: 'Paleta', imagen: 'Pictures/paleta.png' },
+    { letra: 'Q', palabra: 'Queso', imagen: 'Pictures/queso.png' },
+    { letra: 'R', palabra: 'Ratón', imagen: 'Pictures/raton.png' },
+    { letra: 'S', palabra: 'Sapo', imagen: 'Pictures/sapo.png' },
 ];
 
 var posicion = 0;
