@@ -31,9 +31,12 @@ body {
   }
   
   .img-thumbnail {
-    width: 100%;
-    border: 2px solid #ccc;
-    border-radius: 8px;
+    max-width: 300px;
+    max-height: 300px; 
+    width: auto;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
   }
   
   .botones {
@@ -52,4 +55,3 @@ body {
     font-size: 14px;
     color: #555;
   }
-  

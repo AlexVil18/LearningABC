@@ -7,32 +7,51 @@ var letras = [
     { letra: 'F', palabra: 'Foca', imagen: 'Pictures/Foca.png' },
     { letra: 'G', palabra: 'Gato', imagen: 'Pictures/Gato.png' },
     { letra: 'H', palabra: 'Hipopotamo', imagen: 'Pictures/Hipo.png' },
-  ];
-  
-  var posicion = 0;
-  
-  function mostrarLetra() {
+];
+
+var posicion = 0;
+
+function mostrarLetra() {
     document.getElementById("letra").innerText = letras[posicion].letra;
     document.getElementById("palabra").innerText = letras[posicion].palabra;
     document.getElementById("imagen").src = letras[posicion].imagen;
     document.getElementById("imagen").alt = letras[posicion].palabra;
-  }
-  
-  function siguiente() {
+}
+
+function siguiente() {
     posicion++;
     if (posicion >= letras.length) {
-      posicion = 0;
+        posicion = 0;
     }
     mostrarLetra();
-  }
-  
-  function anterior() {
+}
+
+function anterior() {
     posicion--;
     if (posicion < 0) {
-      posicion = letras.length - 1;
+        posicion = letras.length - 1;
     }
     mostrarLetra();
-  }
-  
-  mostrarLetra();
-  
+}
+
+mostrarLetra();
+
+function aplicarColoresAleatorios(elemento) {
+    const colores = [
+        `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`,
+        `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`,
+        `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`
+    ];
+
+    elemento.style.background = `linear-gradient(45deg, ${colores[0]}, ${colores[1]}, ${colores[2]})`;
+}
+
+
+document.querySelectorAll('h1').forEach(h1 => {
+    h1.addEventListener('click', () => aplicarColoresAleatorios(h1));
+});
+
+
+document.querySelectorAll('button').forEach(button => {
+    button.addEventListener('click', () => aplicarColoresAleatorios(button));
+});
