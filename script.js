@@ -19,6 +19,13 @@ var letras = [
     { letra: 'Q', palabra: 'Queso', imagen: 'Pictures/queso.png' },
     { letra: 'R', palabra: 'Ratón', imagen: 'Pictures/raton.png' },
     { letra: 'S', palabra: 'Sapo', imagen: 'Pictures/sapo.png' },
+    { letra: 'T', palabra: 'tomate', imagen: 'Pictures/tomate.png' },
+    { letra: 'U', palabra: 'uvas', imagen: 'Pictures/uvas.jpg' },
+    { letra: 'V', palabra: 'vaca', imagen: 'Pictures/vaca.jpg' },
+    { letra: 'W', palabra: 'wifi', imagen: 'Pictures/wifi.jpg' },
+    { letra: 'X', palabra: 'xilofono', imagen: 'Pictures/xilofono.jpg' },
+    { letra: 'Y', palabra: 'yuca', imagen: 'Pictures/yuca.jpg' },
+    { letra: 'Z', palabra: 'zapato', imagen: 'Pictures/zapato.jpg' },
 ];
 
 var posicion = 0;
