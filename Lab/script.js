@@ -1,4 +1,4 @@
-var letras = [
+let letras = [
     { letra: 'T', palabra: 'tomate', imagen: 'Pictures/tomate.png' },
     { letra: 'U', palabra: 'uvas', imagen: 'Pictures/uvas.jpg' },
     { letra: 'V', palabra: 'vaca', imagen: 'Pictures/vaca.jpg' },
@@ -8,7 +8,7 @@ var letras = [
     { letra: 'Z', palabra: 'zapato', imagen: 'Pictures/zapato.jpg' },
   ];
   
-  var posicion = 0;
+  let posicion = 0;
   
   function mostrarLetra() {
     document.getElementById("letra").innerText = letras[posicion].letra;
