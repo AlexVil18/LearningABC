@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var letras = [
     { letra: 'A', palabra: 'Avion', imagen: 'Pictures/Avion.png' },
     { letra: 'B', palabra: 'Barco', imagen: 'Pictures/Barco.png' },
@@ -56,7 +55,6 @@ document.querySelectorAll('h1').forEach(h1 => {
 document.querySelectorAll('button').forEach(button => {
     button.addEventListener('click', () => aplicarColoresAleatorios(button));
 });
-=======
 var letras = [
     { letra: 'I', palabra: 'Iguana', imagen: './pictures/Iguana.jpg' },
     { letra: 'J', palabra: 'Jarra', imagen: './pictures/Jarra.jpg' },
@@ -99,4 +97,3 @@ var letras = [
   
   mostrarLetra();
   
->>>>>>> main
